@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300;0,500;0,700;1,300;1,500&display=swap');
+
 .navColorFondo {
-    background-image: ;
+    background-color: #FFCA33;
+}
+
+.navbar-title {
+    font-family: 'Shantell Sans', cursive;
+    font-size: 1.2rem;
+}
+
+.navbarAbiertoFondo {
+    background-image: url("img/home/navbarFondoExpand.jpg");
+    opacity: 0.3;
+    height: 100%;
+}
+
+#listaNavbar {
+    position: absolute;
 }
