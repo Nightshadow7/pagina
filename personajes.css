@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300;0,500;0,700;1,300;1,500&display=swap');
+
+body {
+    height: 100%;
+  }
+
+.bg-body {
+    background-image: url("imagenes/navbarFondoExpand.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.1;
+    height: 100vh;
+}
+
+h1, a, h5, h2, h3{
+    font-family: 'Shantell Sans', cursive;
+    font-size: 1.2rem;
+}
+
+p {
+    font-family: 'Shantell Sans', cursive;
+    font-style: normal;
+    font-weight: 300; 
+}
+
+nav {
+    border-bottom: 2px solid black;
+    background-color: #FFCA33;
+}
+
+.navbar--offcanvas-header__color-fondo__contenido {    
+    background-color: #FFCA33;
+    border-bottom: 2px solid black;
+}
+
+.navbar__logo {
+    max-height: 80px;
+}
+
+.navbarAbierto--color-fondo {
+    background-image: url("imagenes/navbarFondoExpand.jpg");
+    opacity: 0.25;
+    height: 100%;
+}
+
+.navbar__listaNavbar--position {
+    position: absolute;
+}
