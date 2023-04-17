@@ -26,17 +26,13 @@ nav {
 }
 
 .navbarAbierto--color-fondo {
-    background-image: url("img/home/navbarFondoExpand.jpg");
-    opacity: 0.25;
-    height: 100%;
-}
-
-.navbar__listaNavbar--position {
-    position: absolute;
+    background-image: url("../img/home/navbarFondoExpand.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .containerBelowNavbar--box-size {
-    background-image: url("img/home/navbarFondoHome.png");
+    background-image: url("../img/home/navbarFondoHome.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 120px;
