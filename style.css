@@ -1,17 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300;0,500;0,700;1,300;1,500&display=swap');
 
-body {
-    height: 100%;
-  }
-
-.bg-body {
-    background-image: url("img/home/navbarFondoExpand.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.1;
-    height: 100vh;
-}
-
 h1, a, h5, h2, h3{
     font-family: 'Shantell Sans', cursive;
     font-size: 1.2rem;
@@ -48,9 +36,10 @@ nav {
 }
 
 .containerBelowNavbar--box-size {
-    position: absolute;
+    background-image: url("img/home/navbarFondoHome.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 120px;
-    z-index: 1;
 }
 
 .card__img--size {
