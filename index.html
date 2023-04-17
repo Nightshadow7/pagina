@@ -11,7 +11,7 @@
     <script src="bootstrap/js/bootstrap.js" defer></script>
 </head>
 <body>
-  <nav class="navbar navbar-light navbar__color-fondo fixed-top m-0">
+  <nav class="navbar navbar-expand-lg navbar-light navbar__color-fondo fixed-top m-0">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <img src="img/home/One-Piece-Logo.png" alt="Logo de One Piece" class="navbar__logo">
@@ -19,10 +19,45 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"   aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
+      <ul class="navbar-nav justify-content-end d-none d-lg-flex flex-wrap">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Characters</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Fruits</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Wanted</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Arcos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Arcos!</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Intro</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Ending</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Contact</a>
+        </li>
+      </ul>
+
+
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"   aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header navbar--offcanvas-header__color-fondo__contenido">
           <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Contenido</h5>
-          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></  button>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body p-0">
           <div class="navbar__listaNavbar--position">
@@ -31,19 +66,19 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Personajes</a>
+                <a class="nav-link active" href="#">Characters</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Frutas</a>
+                <a class="nav-link active" href="#">Fruits</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Recompensas</a>
+                <a class="nav-link active" href="#">Wanted</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" href="#">Arcos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Arcos Importantes</a>
+                <a class="nav-link active" href="#">Arcos!</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" href="#">Intros</a>
@@ -52,10 +87,10 @@
                 <a class="nav-link active" href="#">Endings</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Galeria</a>
+                <a class="nav-link active" href="#">Gallery</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Contacto</a>
+                <a class="nav-link active" href="#">Contact</a>
               </li>
             </ul>
           </div>
@@ -66,7 +101,7 @@
   </nav>
   <div class="container-fluid px-3 containerBelowNavbar--box-size">
     <h1 class="mb-4">One Piece</h1>
-    <div class="row d-flex">
+    <div class="row d-flex flex-wrap">
       <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
         <div id="carruselHome" class="carousel slide" data-bs-ride="carousel"> 
           <div class="carousel-indicators">
@@ -97,10 +132,10 @@
         <h2 class="my-3 text-center">Introducción</h2>
         <p class="text-justify mx-0 mt-0">One Piece es un anime y manga japonés creado por Eiichiro Oda. La historia sigue las aventuras de Monkey D. Luffy, un joven pirata con la habilidad de estirar su cuerpo como si fuera de goma, y su tripulación, mientras buscan el tesoro más grande del mundo conocido como el "One Piece". Luffy quiere convertirse en el Rey de los Piratas y reunir a su tripulación para navegar por el peligroso Grand Line. A lo largo del camino, Luffy y su tripulación se enfrentan a una gran variedad de enemigos y desafíos mientras aprenden la importancia de la amistad y la lealtad. Con más de 1000 capítulos, One Piece es uno de los mangas y animes más populares de todos los tiempos.</p>
       </div> 
-      <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6  flex-lg-column align-content-lg-around col-xl-6 col-xxl-6">
         <div class="card my-3 mt-md-0">
-          <div class="row g-0">
-            <div class="col-12 col-md-4">
+          <div class="row g-0 ">
+            <div class="col-12 col-md-4 ">
               <img src="img/home/onepieceManga.jpg" class="rounded-start card__img--size" alt="One piece Manga">
             </div>
             <div class="col-12 col-md-8">
@@ -113,7 +148,7 @@
           </div>
         </div>
         <div class="card my-3">
-          <div class="row g-0">
+          <div class="row g-0 d-flex">
             <div class="col-12 col-sm-12 col-md-4">
               <img src="img/home/onepieceAnime.jpg" class="rounded-start card__img--size" alt="One piece Anime">
             </div>
