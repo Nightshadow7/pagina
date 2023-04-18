@@ -11,20 +11,58 @@
     <script src="bootstrap/js/bootstrap.js" defer></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-xl navbar-light navbar__color-fondo fixed-top m-0">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="img/home/One-Piece-Logo.png" alt="Logo de One Piece" class="navbar__logo">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"   aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <ul class="navbar-nav justify-content-end d-none d-xl-flex flex-wrap">
+  <nav class="navbar navbar-expand-xl navbar-light navbar__color-fondo fixed-top m-0">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/home/One-Piece-Logo.png" alt="Logo de One Piece" class="navbar__logo">
+      </a>
+      <button class="navbar-toggler" type="button"data-bs-toggle="offcanvas"data-bs-target="#offcanvasNavbar"   aria-controls="offcanvasNavbar"aria-expanded="false"aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <ul class="navbar-nav justify-content-end d-none d-xl-flex flex-wrap">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Characters</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="fruits.html">Fruits</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Wanted</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Arcos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Arcos!</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Intro</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Ending</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Contact</a>
+        </li>
+      </ul>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header navbar--offcanvas-header__color-fondo__contenido">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Contenido</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"aria-label="Close"><button>
+        </div>
+        <div class="offcanvas-body navbarAbierto--color-fondo p-0">
+          <ul class="navbar-nav justify-content-end flex-grow-1 p-3">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Characters</a>
+              <a class="nav-link active" href="">Characters</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="fruits.html">Fruits</a>
@@ -39,10 +77,10 @@
               <a class="nav-link active" href="#">Arcos!</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Intro</a>
+              <a class="nav-link active" href="#">Intros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Ending</a>
+              <a class="nav-link active" href="#">Endings</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="#">Gallery</a>
@@ -51,50 +89,284 @@
               <a class="nav-link active" href="#">Contact</a>
             </li>
           </ul>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"   aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header navbar--offcanvas-header__color-fondo__contenido">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Contenido</h5>
-              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body navbarAbierto--color-fondo p-0">
-              <ul class="navbar-nav justify-content-end flex-grow-1 p-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="">Characters</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="fruits.html">Fruits</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Wanted</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Arcos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Arcos!</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Intros</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Endings</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Gallery</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Contact</a>
-                </li>
-              </ul>
-            </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid px-3 containerBelowNavbar--box-size">
+    <h1 class="mb-4">Fruits</h1>
+    <p class="text-justify mb-3">Las frutas del diablo son objetos raros y valiosos en One Piece queotorganhabilidades especiales a quienes las consumen. Hay tres tipos de frutas del diablo: paramecia, zoanylogia, cada una con habilidades únicas. Sin embargo, los usuarios de frutas del diablo tienen unagrandebilidad: el agua de mar anula sus habilidades y les hace perder la capacidad de moverse. Tambiénpuedenser anulados temporalmente por kairoseki, un mineral raro.</p>
+    <div class="accordion" id="accordionOne">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse"data-bs-target="#collapseOne"  aria-expanded="true" aria-controls="collapseOne">
+            Paramecia
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"  data-bs-parent="#accordionOne">
+          <div class="accordion-body">
+            <p>
+              Las frutas Paramecia son una clase de frutas del diablo que otorgan habilidades físicas ymentales  a quienes las consumen. Estas habilidades pueden variar desde transformar partes delcuerpo a crear  objetos a partir del cuerpo del usuario. Algunos ejemplos de estas habilidadesincluyen la   capacidad de estirar el cuerpo, manipular el veneno y crear y controlar materialesa voluntad.  Aunque las frutas Paramecia otorgan habilidades únicas, los usuarios de estas frutastienen la   misma debilidad que otros usuarios de frutas del diablo: son vulnerables al agua demar y pueden  ser anulados por kairoseki.
+            </p>
+            <div class="row d-flex g-4">
+              
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3 d-flex flex-wrap">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a naturallead-in   toadditional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3 d-flex flex-wrap">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additionalcontent.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3 d-flex flex-wrap">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a naturallead-in   toadditional content. This card has even longer content than the first to showthat   equalheight action.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3 d-flex flex-wrap">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additionalcontent.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3 d-flex flex-wrap">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additionalcontent.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3 d-flex flex-wrap">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additionalcontent.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3 d-flex flex-wrap">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a naturallead-in   toadditional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3 d-flex flex-wrap">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additionalcontent.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3 d-flex flex-wrap">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a naturallead-in   toadditional content. This card has even longer content than the first to showthat   equalheight action.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3 d-flex flex-wrap">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additionalcontent.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3 d-flex flex-wrap">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additionalcontent.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3 d-flex flex-wrap">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additionalcontent.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3 d-flex flex-wrap">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a naturallead-in   toadditional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3 d-flex flex-wrap">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additionalcontent.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3 d-flex flex-wrap">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a naturallead-in   toadditional content. This card has even longer content than the first to showthat   equalheight action.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3 d-flex flex-wrap">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additionalcontent.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3 d-flex flex-wrap">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additionalcontent.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3 d-flex flex-wrap">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additionalcontent.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+              
+            </div> 
           </div>
         </div>
-      </nav>
-      <div class="container-fluid px-3 containerBelowNavbar--box-size">
-        <h1 class="mb-4">Fruits</h1>
       </div>
+    </div>
+    <div class="accordion my-3" id="accordionTwo">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse"data-bs-target="#collapseTwo"  aria-expanded="true" aria-controls="collapseTwo">
+            Zoan
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionTwo">
+          <div class="accordion-body">
+            <p>
+              Las frutas Zoan son una clase de frutas del diablo que permiten al usuario transformarse en un animal o una criatura mitológica. Además de la transformación completa en el animal o criatura,los  usuarios también pueden transformarse en una forma híbrida entre humano y animal. Algunosejemplos   de estas habilidades incluyen la capacidad de transformarse en un lobo, una serpienteo incluso un  dragón. Aunque los usuarios de frutas Zoan tienen habilidades únicas, siguen siendovulnerables al   agua de mar y pueden ser anulados por kairoseki.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion pb-3" id="accordionThree">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+            Logia
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionThree">
+          <div class="accordion-body">
+            <p>
+              Las frutas Logia son una clase de frutas del diablo que permiten al usuario convertirse en un  elemento natural, como el fuego, el hielo o el humo, y controlarlo a voluntad. Además de esta  transformación, los usuarios de frutas Logia también tienen la capacidad de reorganizar ymanipular   sus cuerpos para evitar ataques enemigos. Algunos ejemplos de estas habilidadesincluyen la   capacidad de crear y controlar el fuego, la electricidad o la lava. Aunque losusuarios de frutas   Logia tienen habilidades únicas, siguen siendo vulnerables al agua de mar ypueden ser anulados por   kairoseki.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="container-fluid bg-primary ">
+    <p class="p-4 m-0 text-white text-justify"><i class="bi bi-r-circle"></i> Todos los derechos reservados. Mas informacion en Contact.</p>
+  </footer>
 </body>
 </html>
