@@ -37,3 +37,9 @@ nav {
     background-size: cover;
     padding-top: 120px;
 }
+
+.card__img--size {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
