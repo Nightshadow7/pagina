@@ -38,8 +38,40 @@ nav {
     padding-top: 120px;
 }
 
-.card__img--size {
-    object-fit: cover;
+@media screen and (max-width: 767px) {
+    img {
+      object-fit: fill;
+      height: 100%;
+      width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    img {
+        object-fit: fill;
+        height: 310px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 2559px) {
+    img {
+        object-fit: fill;
+        height: 350px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    img {
+      object-fit: fill;
+      height: 460px;
+      width: 100%;
+    }
+}
+
+/* img {
+    object-fit: fill;
     height: 100%;
     width: 100%;
-}
+} */
