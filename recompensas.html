@@ -4,9 +4,403 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Recompensas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/x-icon" href=".ico"> 
+    <link rel="apple-touch-icon" sizes="180x180" href=".ico">
+    <link rel="stylesheet" href="recompensas.css">
+
+    <nav class="navbar navbar-expand-xl navbar-light navbar__color-fondo fixed-top m-0">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/One-Piece-Logo.png" alt="Logo de One Piece" class="navbar__logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"   aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <ul class="navbar-nav justify-content-end d-none d-xl-flex flex-wrap">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="personajes.html">Characters</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="fruits.html">Fruits</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Wanted</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Arcos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Arcos!</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Intro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Ending</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Contact</a>
+            </li>
+          </ul>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"   aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header navbar--offcanvas-header__color-fondo__contenido">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Contenido</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body navbarAbierto--color-fondo p-0">
+              <ul class="navbar-nav justify-content-end flex-grow-1 p-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="personajes.html">Characters</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="fruits.html">Fruits</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Wanted</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Arcos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Arcos!</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Intros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Endings</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
 </head>
 <body>
+
+    <div class="container-fluid d-flex flex-wrap containerBelowNavbar--box-size">
+      <div class="row">
+        
+        <div class="col-6 p-4 border text-center">
+          <h1>Tripulacion de luffy</h1>
+          <div class="row p-4">
+            <div class="col-sm-6">
+              <div class="card">
+                <img src="imagenes/septima-recompensa-luffy.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Monkey D. Luffy</h5>
+
+                  <p class="card-text"> <strong style="font-size: 19px;">Septima recompensa</strong> por &#8330; 3.000.000.000 por derrotar a  Kaidou y ser considerado uno de los líderes de la Alianza Ninja-Pirata-Mink-Samurái durante el asalto a Onigashima.
+                  </p>
+                  <div class="accordion accordion-flush" id="accordion1">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading1">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                          Recompensas anteriores
+                        </button>
+                      </h2>
+                      <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+
+                          <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  Sexta Recompensa
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <div class="card">
+                                    <img src="imagenes/sexta-recompensa-luffy.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                    <p class="card-text">Sexta recompensa por 1.500.000.000 por invadir el territorio de Big Mom, derrotar a dos de sus comandantes sweet (Cracker y Katakuri), intentar asesinarla y ser públicamente reconocido como el líder de la Gran Flota de Sombrero de Paja.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  Quinta Recompensa
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <img src="imagenes/quinta-recompensa-luffy.webp" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                    <p class="card-text">Quinta recompensa: 500.000.000 por derrotar a Caesar Clown y a uno de los Siete Guerreros del Mar, Donquixote Doflamingo, y formar una alianza con los Piratas de Heart.[54]</p>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  Cuarta Recompensa
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <div class="card">
+                                    <img src="imagenes/cuarta-recompensa-luffy.webp" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                    <p class="card-text">Cuarta recompensa: 400.000.000 por algunas o todas las siguientes razones: por derrotar a Gekko Moriah, uno de los Siete Guerreros del Mar, golpear a un Noble Mundial, por provocar una fuga masiva de unos 241 prisioneros de Impel Down, por participar en la Guerra de Marineford del lado de Barbablanca para salvar a Portgas D. Ace, por tocar la Campana Ox (cosa que se entiende como una declaración de guerra), y por ser reconocido públicamente como el hijo de Dragon «el Revolucionario».</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingfour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                  Tercera Recompensa
+                                </button>
+                              </h2>
+                              <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <div class="card">
+                                    <img src="imagenes/tercera-recompensa-luffy.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                    <p class="card-text">Tercera recompensa: 300.000.000 por derrotar a Blueno y Rob Lucci del CP9, organizar el asalto a Enies Lobby, y por declarar la guerra al Gobierno Mundial.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingfive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                                  Segunda Recompensa
+                                </button>
+                              </h2>
+                              <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <div class="card">
+                                    <img src="imagenes/segunda-recompensa-luffy.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                    <p class="card-text">Segunda recompensa: 100.000.000 por derrotar al Guerrero del Mar Crocodile.</p>
+                                  </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingsix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                                  Primera Recompensa
+                                </button>
+                              </h2>
+                              <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingsix" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <div class="card">
+                                    <img src="imagenes/primera-recompensa-luffy.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                    <p class="card-text">Primera recompensa:  30.000.000 por derrotar a los piratas más peligrosos del East Blue; Buggy, Don Krieg, y Arlong.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+
+
+            <div class="col-sm-6">
+              <div class="card">
+                <img src="imagenes/cuarta-recompensa-zoro.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Zoro Roronoa</h5>
+
+                  <p class="card-text"> <strong style="font-size: 19px;">Cuarta recompensa</strong> por &#8330; 1.111.000.000 Después de los eventos en la saga de Whole Cake Island, Zoro y el resto de los Piratas de Sombrero de Paja se involucraron en una serie de batallas y enfrentamientos con la Marina y otros piratas poderosos. Su papel en estas batallas, así como sus hazañas anteriores, llevaron a que su recompensa se aumentara significativamente. 
+                  </p>
+                  <div class="accordion accordion-flush" id="accordion2">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                          Recompensas anteriores
+                        </button>
+                      </h2>
+                      <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+
+                          <div class="accordion" id="accordionExample1">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  Tercera Recompensa
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample1">
+                                <div class="accordion-body">
+                                  <div class="card">
+                                    <img src="imagenes/tercera-recompensa-zoro.webp" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                    <p class="card-text">Tercera recompensa: 320.000.000 por participar en el derrocamiento de Donquixote Doflamingo, junto con el resto de la banda que estaba en Dressrosa, además de derrotar a Pica uno de los oficiales supremos de la familia Donquixote.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  segunda Recompensa
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample1">
+                                <div class="accordion-body">
+                                  <img src="imagenes/segunda-recompensa-zoro.webp" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                    <p class="card-text">Segunda recompensa: 120.000.000 por participar junto al resto de la banda en el asalto a Enies Lobby y derrotar a Kaku del CP9.</p>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  Primera Recompensa
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample1">
+                                <div class="accordion-body">
+                                  <div class="card">
+                                    <img src="imagenes/primera-recompensa-zoro.webp" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                    <p class="card-text">Primera recompensa: 60.000.000 por derrotar a Daz Bones y cien cazarrecompensas en Whiskey Peak.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <div class="card">
+                <img src="imagenes/cuarta-recompensa-nami.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Nami</h5>
+
+                  <p class="card-text"> <strong style="font-size: 19px;">Tercera Recompensa</strong> por &#8330; 366.000.000 Después de los eventos en la saga de el arco de Wano con lo cual los mugiwaras zarparon rumbo a nuevas aventuras. Aunque el arco culminó con más de una decepción, ya que finalmente Yamato, quien se esperaba que se sumara a la tripulación no lo hizo. 
+                  </p>
+                  <div class="accordion accordion-flush" id="accordion3">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading3">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                          Recompensas anteriores
+                        </button>
+                      </h2>
+                      <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+
+                          <div class="accordion" id="accordionExample2">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  Segunda Recompensa
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample2">
+                                <div class="accordion-body">
+                                  <div class="card">
+                                    <img src="imagenes/segunda-recompensa-nami.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                    <p class="card-text">Segunda Recompensa: Tras los eventos en Dressrosa la recompensa de Nami aumentó hasta 66.000.000, su fotografía también fue actualizada.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  Primera Recompensa
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample2">
+                                <div class="accordion-body">
+                                  <img src="imagenes/primera-recompensa-nami.webp" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                    <p class="card-text">Primera Recompensa: 16.000.000 por derrotar a Kalifa del CP9. Mientras la mayoría de los Piratas de Sombrero de Paja estaban impresionados por sus recompensas, a Nami no le gustó convertirse en alguien buscado. Ella pensaba que su foto sería para una revista ya que la engañaron, es por eso que su pose es tan sugerente.</p>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            
+
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+          </div>
+        </div>
+      </div>    
+
+    </div>
     
 </body>
 </html>
