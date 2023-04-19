@@ -52,6 +52,33 @@ nav {
     max-height: 550px !important;
 }
 
+#moove_gdpr_save_popup_settings_button:not(.gdpr-floating-button-custom-position) {
+    background-image: url(imagenes/logopagina.jpg);
+    bottom: 20px;
+    left: 40px;
+    bottom: 60px !important;
+    background-color: #373737;
+    color: #fff;
+    display: block;
+    z-index: 1001;
+    position: fixed;
+    background-size: cover;
+    transition: all .3s ease;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    
+    outline: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 100%;
+    border: none;
+    text-decoration: none;
+    border-radius: 50px;
+
+}
+
 /* .zoro{
     object-fit: fill !important;
     max-width: 100% !important;
