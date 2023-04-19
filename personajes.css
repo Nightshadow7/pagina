@@ -36,10 +36,36 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 120px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
 .card__img--size {
     object-fit: cover;
     height: 100%;
     width: 100%;
+}
+
+.personajes{
+    object-fit: fill !important;
+    max-width: 100% !important;
+    max-height: 550px !important;
+}
+
+/* .zoro{
+    object-fit: fill !important;
+    max-width: 100% !important;
+    max-height: 350px !important;
+}
+
+.nami{
+    object-fit: fill !important;
+    max-width: 100% !important;
+    max-height: 400px !important;
+}
+ */
+.tripulacion{
+    
+    max-width: 100% !important;
+    max-height: 550px !important;
 }
